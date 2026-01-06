@@ -679,6 +679,49 @@ body {
   color: #16a083;
 }
 
+#feedback {
+  padding: 5rem 0;
+  background: #ffffff;
+}
+
+.feedback-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.feedback-subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.feedback-form {
+  max-width: 600px;
+  margin: auto;
+  background: #f7f7f7;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.feedback-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.feedback-form input,
+.feedback-form textarea,
+.feedback-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback-form button {
+  width: 100%;
+  margin-top: 1rem;
+}
+
 
 @media (orientation: landscape) and (max-height: 500px) {
   .showcase-area {
