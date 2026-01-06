@@ -635,6 +635,51 @@ body {
   }
 }
 
+#billing {
+  padding: 5rem 0;
+  background: #f7f7f7;
+}
+
+.billing-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.billing-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.billing-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.billing-table th,
+.billing-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.billing-table th {
+  background: #16a083;
+  color: #fff;
+}
+
+.bill-summary {
+  text-align: right;
+}
+
+.bill-summary h3 {
+  margin-top: 10px;
+  color: #16a083;
+}
+
+
 @media (orientation: landscape) and (max-height: 500px) {
   .showcase-area {
     height: 50vmax;
